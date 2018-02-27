@@ -41,7 +41,6 @@ while not done:
             catch.append(zid)
             msg = "[" + name + "](https://zeroday.hitcon.org/vulnerability/" + zid + ")"
             url = "https://api.telegram.org/bot" + bot_token + "/sendMessage?chat_id=" + user_id + "&parse_mode=Markdown&disable_web_page_preview=1&text=" + msg
-            print(url)
             requests.get(url)
 with open(log_path, 'a') as f:
     for item in reversed(catch):
