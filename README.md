@@ -1,4 +1,4 @@
-# zeroday_telbot
+# hitcon_zeroday_bot
 A telegram bot which pushes hitcon zeroday disclosed vulnerabilities
 
 Refrence 
@@ -15,6 +15,5 @@ Refrence
 # Install & Run
 
 ```shell
-pip3 install -r requiremenets.txt
-python3 bot.py
+docker compose up -d
 ```
